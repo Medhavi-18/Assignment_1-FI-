@@ -1,0 +1,37 @@
+* {
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.headline {
+    background-color: aquamarine;
+    font-style: italic;
+    width: 100%;
+}
+
+.Navbar {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    list-style: none;
+    background-color: aqua;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container-wrapper {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 10px; 
+}
+
+.container {
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid;
+    width: 45%; 
+}
+
+
